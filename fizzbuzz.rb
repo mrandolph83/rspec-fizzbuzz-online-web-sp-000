@@ -5,20 +5,20 @@ def fizzbuzz(x)
 
 if (x.to_i) % 3 == 0 # if the number int is divisible by 3
 
-  "Fizz" # Go fizz
+  return "Fizz" # Go fizz
 
 
 elsif (x.to_i) % 5 == 0
 
-  "Buzz"
+  return "Buzz"
 
 
 elsif (x.to_i) % 15 == 0
 
-"FizzBuzz"
+return "FizzBuzz"
 
 else
-"nil"
+return "nil"
 
 end
 end
