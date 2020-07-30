@@ -3,8 +3,6 @@
 
 def fizzbuzz(x)
 
-end
-
 if (x.to_i) % 3 == 0 # if the number int is divisible by 3
 
   puts "Fizz" # Go fizz
