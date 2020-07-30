@@ -3,15 +3,15 @@
 
 def fizzbuzz(x)
 
-if x % 3 == 0 # if the number int is divisible by 3
+if x % 15 == 0
+"FizzBuzz"
+
+elsif x % 3 == 0 # if the number int is divisible by 3
 
 "Fizz" # Go fizz
 
 elsif x % 5 == 0
 "Buzz"
-
-elsif x % 5 == 0 && x % 3 == 0
-"FizzBuzz"
 
 else
  "nil"
