@@ -22,6 +22,6 @@ puts "FizzBuzz"
 else
   puts "nil"
 
-x = gets.strip
+fizzbuzz(x)
 
 end
