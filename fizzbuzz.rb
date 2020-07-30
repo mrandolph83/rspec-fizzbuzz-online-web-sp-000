@@ -22,6 +22,5 @@ puts "FizzBuzz"
 else
   puts "nil"
 
-fizzbuzz(x)
-
+end
 end
