@@ -2,7 +2,6 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(x)
-end
 
 if (x.to_i) % 3 == 0 # if the number int is divisible by 3
 
@@ -22,3 +21,4 @@ else
   puts "nil"
 
   end
+end
