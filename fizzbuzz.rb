@@ -10,7 +10,7 @@ if x % 3 == 0 # if the number int is divisible by 3
 elsif x % 5 == 0
 "Buzz"
 
-elsif x % 5 == 0 && x % 3
+elsif x % 5 == 0 && x % 3 == 0
 "FizzBuzz"
 
 else
