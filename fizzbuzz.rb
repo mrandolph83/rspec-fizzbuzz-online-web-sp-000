@@ -8,10 +8,9 @@ if x % 3 == 0 # if the number int is divisible by 3
 "Fizz" # Go fizz
 
 elsif x % 5 == 0
-
 "Buzz"
 
-elsif x % 15 == 0
+elsif x % 5 == 0 && elsif x % 3
 "FizzBuzz"
 
 else
