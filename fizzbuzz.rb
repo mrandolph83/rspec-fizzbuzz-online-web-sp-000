@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(x)
-  x = gets.strip
+  
 end
 
 if (x.to_i) % 3 == 0 # if the number int is divisible by 3
@@ -21,5 +21,7 @@ puts "FizzBuzz"
 
 else
   puts "nil"
+
+x = gets.strip
 
 end
