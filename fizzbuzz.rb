@@ -2,21 +2,21 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(x)
-  fizzbuzz(x) = x.to.i
+  x = x.to.i
 
-if fizzbuzz(x) % 3 == 0 # if the number int is divisible by 3
+if x % 3 == 0 # if the number int is divisible by 3
 
 puts "Fizz" # Go fizz
 "Fizz"
 
 
-elsif fizzbuzz(x) % 5 == 0
+elsif x % 5 == 0
 
 puts "Buzz"
 "Buzz"
 
 
-elsif fizzbuzz(x) % 15 == 0
+elsif x % 15 == 0
 
 puts "FizzBuzz"
 "FizzBuzz"
