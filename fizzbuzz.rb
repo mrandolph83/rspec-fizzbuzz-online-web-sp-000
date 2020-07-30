@@ -3,6 +3,7 @@
 
 def fizzbuzz
   fizzbuzz(x) = y
+end
 
 if (x.to_i) % 3 == 0 # if the number int is divisible by 3
 
@@ -24,4 +25,4 @@ else
   puts y
 
   end
-end
+
